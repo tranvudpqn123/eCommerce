@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  dream-shop-service:
+    container_name: dream_shop
+    image: tranvudpqn123/dream-shop:latest
+    ports:
+      - 9193:9193
